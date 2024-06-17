@@ -1,0 +1,9 @@
+.headContact{
+    background: linear-gradient(to left, #559af3, #1462f3, #559af3) !important;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 100px;
+
+    display: flex;
+    justify-content: space-between;
+}

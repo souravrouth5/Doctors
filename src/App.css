@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#root > div > header > div > div > div.MuiBox-root.css-15ytkbm > button > a{
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+#root > div > header > div > div > div.MuiBox-root.css-15ytkbm > button > a:hover{
+  background-color: transparent !important;
+  color: rgb(225, 36, 84) !important;
+}
+#root > div > header > div > div > div.MuiBox-root.css-15ytkbm > button > a.active{
+  color: rgb(225, 36, 84) !important;
+}

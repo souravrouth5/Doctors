@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;600&display=swap");
+.MuiTypography-root {
+  font-family: "Exo", sans-serif !important;
+}
+.banner {
+  background-image: url(http://labartisan.net/demo/mukti/assets/images/banner/1.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.bannerTxt {
+  /* border: 2px solid black; */
+  width: 40%;
+  margin-left: 5%;
+}
+.info * {
+  color: #223a66;
+}
+
+.divider {
+  width: 100px;
+  height: 5px;
+  background-color: #e12454;
+  margin: 30px auto;
+}
+.featured {
+  transition: all 0.3s ease;
+}
+.imgBox {
+  height: 250px;
+  width: 250px;
+  border: 10px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgb(231, 225, 225);
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.imgBox img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.featured:hover .imgBox {
+  border-color: #223a66;
+}
+.fa-brands {
+  color: #223a66;
+  transition: all 0.3s ease;
+  font-size: larger;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  /* color: #13a2b7 !important; */
+  color: rgb(225, 36, 84) !important;
+}
+
+.bottomBanner {
+  height: 70vh;
+  background-image: url(https://img.freepik.com/free-photo/medical-workers-healthcare-covid-vaccination-concept-attractive-cheerful-female-nurse-doctor_1258-92289.jpg?t=st=1717234953~exp=1717238553~hmac=9beb0dd2f7a7337be53124808e143b4c7cc270e59d6ba9b1f983db8bff135ce6&w=1380);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  /* background-position: 0 -50px; */
+  display: flex;
+  align-items: center;
+}
+.bottomBanner > .bannerTxt {
+  width: 50%;
+}
+.bannerDivider {
+  width: 20%;
+  height: 5px;
+  background-color: #e12454;
+  margin: 24px 0;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  height: 40vh;
+  background-image: url(https://images.pexels.com/photos/11198237/pexels-photo-11198237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #1151ca;
+  background-blend-mode: soft-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* breadcrumb */
+
+.Mui-selected {
+  background-color: #223a66 !important;
+  color: white !important;
+}
+
+.contactForm > .MuiGrid-root > .MuiGrid-item > input {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.134);
+  background-color: #f4f9fc;
+  outline: none;
+  font-size: 14px;
+  color: #495057;
+  line-height: 1.5;
+}
+.contactForm textarea {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  height: 150px;
+  width: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.134);
+  background-color: #f4f9fc;
+  outline: none;
+  font-size: 14px;
+  color: #495057;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.authForm input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  /* margin-bottom: 20px; */
+  background-color: rgba(235,244,255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.134);
+  border-radius: 7px;
+  /* outline: none; */
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* .formValidationError{
+  margin-top: 5px !important;
+  padding: 5px 20px;
+  border: 2px solid #e12454;
+  border-radius: 4px;
+} */
+
+/* .MuiImageListItem-masonry{
+  transition: all .7s ease;
+}
+.MuiImageListItem-masonry:hover .MuiImageListItem-img{
+  scale: 1.3;
+  z-index: 1;
+} */
+
+@media screen and (max-width: 767px) {
+  .banner {
+    background-image: none;
+    justify-content: center;
+  }
+  .bannerTxt {
+    width: 100%;
+  }
+  .bottomBanner {
+    height: 200px;
+    background-size: 100% 100%;
+  }
+  .bottomBannerTxt {
+    font-size: 16px !important;
+  }
+  .bannerTxt > .MuiButton-root {
+    font-size: 10px !important;
+  }
+}
